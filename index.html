@@ -41,5 +41,29 @@
         </symbol>
     </svg>
 
+    <!--O formulário consistirá em um título e uma lista não ordenada.
+        Além disso, usarei um .container para definir a largura máxima do formulário
+        e centralizar horizontalmente seu conteúdo. -->
+    <form class="handmade-form">
+        <div class="container">
+            <h1>Fale Conosco</h1>
+            <p>Deixe seu comentário e entraremos em contato</p>
+            <!-- Dentro da lista, colocarei os SVGs e os elementos do formulário.-->
+            <ul><!-- O primeiro item da lista incluirá dois campos de entrada obrigatórios junto com seus SVGs-->
+                <li class="grid grid-2">
+                    <div class="form-wrapper"> <!-- Campo Nome-->
+                        <input type="text" placeholder="Nome*" required>
+                        <svg><use xlink:href="#input1"></use></svg>
+                    </div>
+                    <div class="form-wrapper"> <!-- Campo Sobrenome-->
+                        <input type="text" placeholder="Sobrenome*" required>
+                        <svg><use xlink:href="#input2"></use></svg>
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+    </form>
+    
 </body>
 </html>
