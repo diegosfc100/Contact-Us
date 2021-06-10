@@ -174,3 +174,23 @@ footer {
 footer span {
   color: var(--red);
 }
+
+/* MQ */
+@media screen and (min-width: 600px) {
+  .handmade-form .grid {
+    display: grid;
+    grid-gap: 1.5rem;
+  }
+
+  .handmade-form .grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .handmade-form .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .handmade-form .grid > *:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
