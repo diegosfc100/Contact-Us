@@ -77,6 +77,29 @@
                     <svg><use xlink:href="#textarea"></use></svg>
                 </li>
 
+                <li class="form-wrapper">
+                    <fieldset> <!-- Campo contendo opções de email e telefone-->
+                        <legend>Selecione o método preferido de contato:</legend>
+                        <ul class="checkbox-list">
+                            <li>
+                                <input type="radio" id="email" name="contact-method" checked>
+                                <label for="email">Email <!-- Opção de e-mail-->
+                                    <svg><use xlink:href="#checkbox_empty"></use></svg>
+                                    <svg class="checkmark"><use xlink:href="#checkmark"></use></svg>                                 </svg>                                
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="phone" name="contact-method">
+                                <label for="phone">Telefone <!-- Opção de telefone-->
+                                    <svg><use xlink:href="#checkbox_empty"></use></svg>
+                                    <svg class="checkmark"><use xlink:href="#checkmark"></use></svg>        
+                                </label>
+                            </li>
+                        </ul>
+                        <svg><use xlink:href="#fieldset"></use></svg>
+                    </fieldset>
+                </li>
+                
             </ul>
         </div>
     </form>
