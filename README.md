@@ -35,7 +35,9 @@ $ cd Contact-us
 $ open index.html
 ```
 
+## :memo: License
 
+Este projeto está sob a licença do MIT. Veja a [LICENSE](https://github.com/diegosfc100/Contact-Us/blob/main/LICENSE) para maiores informações.
 
 
 
